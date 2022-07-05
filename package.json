@@ -1,0 +1,27 @@
+{
+  "name": "wook-cli",
+  "version": "1.0.0",
+  "description": "simple cli for devlopment ",
+  "main": "index.js",
+  "bin": {
+    "wt": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "1",
+    "email": "wook_tao@163.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.0.0",
+    "ora": "^5.1.0"
+  },
+  "devDependencies": {
+    "commander": "^9.3.0"
+  }
+}
